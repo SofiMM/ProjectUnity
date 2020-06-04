@@ -15,7 +15,7 @@ public class Camaraseguir : MonoBehaviour {
     
     void LateUpdate () {
         transform.position= personaje.transform.position + distancia;
-        transform.position= personaje.transform.position + distancia;
+        //transform.position= personaje.transform.position + distancia;
         
        // transform.LookAt(personaje.transform.position);
 

@@ -8,6 +8,19 @@ TagManager:
   - Exit
   - Jugador
   - Bola
+  - Arbol
+  - Bola1
+  - Bola2
+  - Puerta1
+  - Bola3
+  - Bola4
+  - Bola5
+  - Bola6
+  - Bola7
+  - Bola8
+  - Bola9
+  - Bola10
+  - Bola11
   layers:
   - Default
   - TransparentFX

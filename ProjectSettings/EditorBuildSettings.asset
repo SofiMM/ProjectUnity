@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Primera_plataforma.unity
     guid: c6e8389534b3cae47942d3380263a5fc
+  - enabled: 1
+    path: Assets/Scenes/Segunda_plataforma.unity
+    guid: 2e86a3e03c287f94581d1d6128414d07
   m_configObjects: {}

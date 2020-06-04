@@ -13,26 +13,26 @@ public class RecogerPlanetas : MonoBehaviour
     {
         rigidBody = GetComponent<Rigidbody>(); offset = gameObject.transform.position - target.transform.position;
         if(planetas!=21){
-            arbol.active = false;
+            arbol.SetActive(false);
 
         }
     }
-    void OnCollisionEnter(Collision other)
-    {
+
+     void OnCollisionEnter(Collision other)
+        {
         if (other.gameObject.tag == "Jugador")
         { // Interacting ONLY with the First Person Controller
             if (gameObject.tag == "Bola") {
                 planetas=planetas+1;
                 print("planetas: "+planetas);
                 Destroy(gameObject); }
-        }
-        
+        } 
     }
 
     void LateUpdate()
     { // To update the position of the camera AFTER the update of the sphere
-    if(planetas==21){
-        arbol.active = true;
+        if(planetas>=11){
+            arbol.SetActive (true);
         }
     }
 }
